@@ -1,0 +1,1025 @@
+@charset "UTF-8";
+
+#netflix_body{
+	background: #1a1a1a;
+}
+
+#n_logo {
+	width: 200px;
+	height: 100px;
+}
+
+#n_logo2 {
+	width: 500px;
+	height: 250px;
+}
+
+#n_cate_introduce1 {
+	color: white;
+}
+
+#n_cate_introduce2 {
+	color: white;
+}
+
+#n_cate {
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	background-color: rgba(128,0,16, 0.6);
+	border: 2px solid #e6e6e6;
+	border-radius: 10px;
+}
+
+.n_contentPageAllBox {
+	width: 98%;
+	color: white;
+	overflow: hidden;
+}
+
+#n_categoryLeft {
+	width: 8%;
+	float: left;
+	color: white;
+	margin-left: 5%;
+	border-spacing: 20px;
+ 	border-collapse: separate;
+ 	margin-top: 50px;
+}
+
+
+#n_categoryRight {
+	width: 70%;
+	margin-left: 25%;
+	margin-top: 30px;
+}
+
+#n_intro_title{
+	line-height: 60px;
+	width: 250px;
+	height: 60px;
+	text-align: center;
+	font-size: 25pt;
+	font-weight: bold;
+	background-color: rgba(128,0,16, 0.6);
+	border: 2px solid #e6e6e6;
+	border-radius: 10px;
+}
+
+#n_intro_w{
+	font-size: 13pt;
+	color: white;
+	
+}
+
+#n_introCalcPeople{
+	width: 50px;
+	height: 25px;
+	color: white;
+	border: 1px solid #e6e6e6;
+	background-color:  transparent;
+}
+
+#n_introCalcMonth{
+	width: 50px;
+	height: 25px;
+	color: white;
+	border: 1px solid #e6e6e6;
+	background-color:  transparent;
+}
+
+#n_introCalcBtn{
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	color: black;
+	border: 1px solid #e6e6e6;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+}
+
+#n_introCalcMembership{
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	color: white;
+	border: 1px solid #e6e6e6;
+	background-color:  transparent;
+}
+
+#n_introCalcMembership option{
+	color: black;
+}
+
+#n_introducdCalcForm table{
+	width: 90%;
+	border: 2px solid #e6e6e6;
+	margin: auto;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#n_introducdCalcForm1{
+	border-bottom: 1px dotted #e6e6e6;
+	border-right: 1px dotted #e6e6e6;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+#n_introducdCalcForm2 td{
+	border-bottom: 1px dotted #e6e6e6;
+	border-right: 1px dotted #e6e6e6;
+}
+
+#n_introducdCalcForm3{
+	border-right: 1px dotted #e6e6e6;
+}
+
+#n_introducdCalcForm3_1{
+	border-right: 1px dotted #e6e6e6;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+
+
+/* #n_categoryLeftLast{
+	height: 100%;
+} */
+
+
+/* 여기서부터는 추천페이지 */
+#n_recom_kr {
+	width: 99%;
+	table-layout: fixed;
+	margin: auto;
+	margin-bottom: 70px;
+	margin-top: 60px;
+}
+
+#n_recom_title1 {
+	font-size: 55pt;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 3px;
+	padding-bottom:40px;
+	color: white;
+	text-shadow: 0 0 7px #fff, 0 0 10px #801, 0 0 21px #801, 0 0 42px #801,
+    0 0 82px #801, 0 0 92px #801, 0 0 102px #801, 0 0 151px #801;
+	
+}
+
+#n_recom_drama {
+	/* border: #008080 solid 2px; */
+	width: 99%;
+	table-layout: fixed;
+	margin: auto;
+	margin-bottom: 70px;
+}
+
+#n_recom_movie {
+	/* border: #80ff80 solid 2px; */
+	width: 99%;
+	table-layout: fixed;
+	margin: auto;
+	margin-bottom: 70px;
+}
+
+#n_recom_ani {
+	/* border: #0080ff solid 2px;  */
+	width: 99%;
+	table-layout: fixed;
+	margin: auto;
+	margin-bottom: 70px;
+	
+}
+
+#n_recommImg2 {
+	width: 320px;
+	height: 190px;
+	max-width: 99%;
+	border-radius: 10px;
+	border: 1px dotted white;
+}
+
+#n_bestContent1 {
+	font-size: 35pt;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 20px;
+}
+
+
+#n_bestContent2 {
+	font-size: 25pt;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 32px;
+}
+
+#n_bestContent3 {
+	font-size: 20pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+#n_recomDetail_img {
+	width: 98%;
+}
+
+#n_recomDetailMain {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	table-layout: fixed;
+}
+
+#n_recomDetailetc {
+	table-layout: fixed;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+#n_recomDetailStory {
+	width: 70%;
+	font-size: 20pt;
+	table-layout: fixed;
+	text-align: left;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	vertical-align: top;
+	border-right: 1px dotted rgba(255, 255, 255, 0.5);
+}
+
+#n_recomDetailPreview {
+	border-radius: 10px;
+	margin-top: 5px;
+	width: 98%;
+	height: 400px;
+}
+
+#n_recomDetailTitle {
+	width: 98%;
+	height: 70px;
+	background-color: transparent;
+	border-color: transparent;
+	color: white;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+#n_recomDetailAllTable {
+	/* border: white dashed 5px; */
+	border-radius: 10px;
+	width: 77%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	table-layout: fixed;
+	background-color: rgba(128,0,16, 0.6);
+
+}
+
+#n_recomDetailBtn {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+#n_recomDetailBtn button {
+	width: 200px;
+	height: 45px;
+	background-color: transparent;
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+	font-size: 15pt;
+	color: white;
+}
+
+/* 여기서부터는 리뷰게시판 */
+#n_reviewTable {
+	width: 100%;
+	background-color: rgba(128,0,16, 0.6);
+	border : solid 2px #e6e6e6;
+	border-radius: 10px;
+}
+
+#n_reviewTitle{
+	width: 100%;
+}
+
+#n_reviewTitle1 {
+	width: 85%;
+	height: 70px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: rgba(128,0,16, 0.6);;
+	border : solid 2px #e6e6e6;
+	color: white;
+	border-radius: 10px;
+}
+
+#n_reviewWriteBtn {
+	width: 150px;
+	height: 75px;
+	float: right;
+	font-size: 12pt;
+	font-weight: bold;
+	color: white;
+	background-color: rgba(128,0,16, 0.6);
+	border-color: #e6e6e6;
+	border-radius: 10px;
+}
+
+
+#n_reviewTitle2 {
+	font-size: 20pt;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-bottom-color: #e6e6e6;
+	table-layout: fixed;
+}
+
+#n_reviewTitle3 {
+	font-size: 20pt;
+	text-align: center;
+	font-weight: bold;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-bottom-color: #e6e6e6;
+	table-layout: fixed;
+}
+
+#n_reviewTitle4 {
+	font-size: 20pt;
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-bottom-color: #e6e6e6;
+	table-layout: fixed;
+}
+
+#n_reviewTitle5 {
+	font-size: 20pt;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-bottom-color: #e6e6e6;
+	table-layout: fixed;
+}
+
+#n_reviewTitle6 {
+	font-size: 20pt;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-bottom-color: #e6e6e6;
+}
+
+#n_reviewTitle2_1 {
+	font-size: 13pt;
+	height: 60px;
+	text-align: center;
+}
+
+#trtr td{
+border-bottom: 1px solid rgba(230, 230, 230, 0.5);
+}
+
+#n_reviewTitle3_1 {
+	font-size: 13pt;
+	height: 60px;
+}
+
+#n_reviewTitle4_1 {
+	font-size: 10pt;
+	height: 60px;
+	text-align: right;
+}
+
+#n_reviewTitle5_1 {
+	font-size: 12pt;
+	height: 60px;
+	text-align: center;
+}
+
+#n_reviewTitle6_1 {
+	font-size: 12pt;
+	height: 60px;
+	text-align: center;
+}
+
+#n_reviewBoard {
+	border: gray solid 2px;
+	width: 80%;
+	height: 500px;
+}
+
+#n_reviewPagSear1 {
+	height: 50px;
+	width: 400px;
+	border : solid 2px #e6e6e6;
+	border-radius: 10px;
+	background-color: rgba(128,0,16, 0.6);
+	text-align: center;
+}
+
+#n_reviewPagSear {
+	height: 50px;
+	width: 400px;
+	text-align: center;
+}
+
+#n_reviewPagSear input {
+	width: 200px;
+	height: 25px;
+	border : solid 2px #e6e6e6;
+	border-radius: 10px;
+	background-color: rgba(128,0,16, 0.6);
+	color: white;
+}
+
+#n_reviewPagSear button {
+	width: 80px;
+	height: 30px;
+	border : solid 2px #e6e6e6;
+	border-radius: 10px;
+	background-color: rgba(128,0,16, 0.6);
+	color: white;
+}
+
+#n_reviewPagSear select {
+	width: 80px;
+	height: 30px;
+	border : solid 2px #e6e6e6;
+	border-radius: 10px;
+	background-color: rgba(128,0,16, 0.6);
+	color: white;
+	text-align: center;
+}
+
+
+/* 여기서부터는 리뷰게시판 글쓰기*/
+#n_reviewWriteTitle {
+	color: white;
+	width: 50%;
+	height: 100px;
+	margin-bottom: 10px;
+	border-bottom: 1px #e6e6e6 solid;
+	border-radius: 10px;
+}
+
+#n_reviewWrite1 {
+	width: 230px;
+	height: 40px;
+	text-align: center;
+	font-size: 15pt;
+	font-weight: bold;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+}
+
+#n_reviewWrite2 {
+	width: 350px;
+	height: 40px;
+	text-align: left;
+	font-size: 12pt;
+}
+
+#n_reviewWrite3 {
+	text-align: center;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+#n_reviewWStar {
+	width: 150px;
+	height: 30px;
+	background-color: transparent;
+	color: white;
+	border-color: transparent;
+	border-bottom: 1px #e6e6e6 solid;
+}
+
+#n_genreSelect {
+	width: 150px;
+	height: 30px;
+	background-color: transparent;
+	color: white;
+	border-color: transparent;
+	border-bottom: 1px #e6e6e6 solid;
+}
+
+#n_genreSelect option{
+	color: black;
+}
+
+#n_reviewWTitle1 {
+	width: 85%;
+	height: 30px;
+	text-align: left;
+	border-color: transparent;
+	border-bottom: 1px white solid;
+	background-color: transparent;
+	color: white;
+}
+
+#n_reviewWTitle1::placeholder{
+	color: white;
+}
+
+#n_reviewWTitle2::placeholder{
+	color: white;
+}
+
+#n_reviewWTitle2 {
+	width: 85%;
+	height: 30px;
+	text-align: left;
+	border-color: transparent;
+	border-bottom: 1px #e6e6e6 solid;
+	background-color: transparent;
+	color: white;
+}
+
+#n_reviewWTxt1 {
+	width: 99%;
+	height: 300px;
+	white-space: pre-wrap;
+	font-size: 13pt;
+}
+
+/* 여기서부터는 리뷰게시판 상세/수정페이지*/
+#n_reviewWriteD1 {
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	font-size: 15pt;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+#n_reviewWriteD2 {
+	width: 120px;
+	height: 40px;
+	text-align: left;
+	font-size: 12pt;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+#n_reviewWriteD3 {
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+#n_reviewWTxtD1 {
+	width: 700px;
+	height: 300px;
+	white-space: normal;
+	color: white;
+	font-size: 15pt;
+}
+
+
+#n_reviewDetailTable {
+	margin: auto;
+	width: 900px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: 2px solid #e6e6e6;
+	background-color: rgba(128,0,16, 0.6);
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#n_reviewDetailTable button{
+	width: 400px;
+	height: 60px;
+	font-size: 12pt;
+	font-weight: bold;
+	background-color: rgba(128,0,16, 0.6);
+	color: white;
+	border: 2px #e6e6e6 solid;
+	border-radius: 5px;
+}
+
+#n_reviewDetailTable1 {
+	margin: auto;
+	width: 900px;
+	margin-bottom: 30px;
+}
+
+#n_reviewDetailTable1 button{
+	width: 400px;
+	height: 60px;
+	font-size: 12pt;
+	font-weight: bold;
+	background-color: rgba(128,0,16, 0.6);
+	color: white;
+	border: 2px #e6e6e6 solid;
+	border-radius: 5px;
+}
+
+#n_reviewDetailBack{
+	width: 300px;
+	height: 40px;
+	font-size: 15pt;
+	font-weight: bold;
+	background-color: rgba(128,0,16, 0.6);
+	color: white;
+	border: 2px #e6e6e6 solid;
+	border-radius: 5px;
+	padding-top: 10px;
+}
+
+#n_reviewEditTxt {
+	width: 85%;
+	height: 30px;
+	text-align: left;
+	border-color: transparent;
+	border-bottom: 1px #e6e6e6 solid;
+	background-color: transparent;
+	color: white;
+}
+
+#n_reviewWrite4{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/* 리뷰게시판 검색  */
+#n_reviewNone {
+	height: 300px;
+	font-size: 30pt;
+	color: white;
+	text-align: center;
+}
+
+/* 여기서부터는 명장면게시판 */
+#n_bestTitle{
+	height: 70px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: rgba(128,0,16, 0.6);
+	border : solid 2px #e6e6e6;
+	border-radius: 10px;
+}
+
+#n_bestWrite{
+	margin: auto;
+	margin-top:50px;
+	width: 550px;
+	height: 250px;
+	background-color: rgba(128,0,16, 0.6);
+	border : solid 2px #e6e6e6;
+	border-radius: 10px;
+	color: white;
+}
+
+#n_bestSearch {
+	height: 50px;
+	width: 400px;
+	border : solid 2px #e6e6e6;
+	border-radius: 10px;
+	background-color: rgba(128,0,16, 0.6);
+	text-align: center;
+	margin: auto;
+}
+
+#n_bestTitle2{
+	font-size: 20pt;
+	font-weight: bold;
+	height: 60px;
+	text-align: center;
+	border-bottom: solid 2px #e6e6e6;
+}
+
+#n_bestWrite button{
+	width: 100px;
+	height: 35px;
+	background-color: transparent;
+	color: white;
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+}
+
+#n_bestWriteTitle{
+	text-align: center;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	height: 50px;
+	width: 80px;
+}
+
+#n_bestWriteTitle1{
+	text-align: center;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	height: 100px;
+}
+
+#n_bestWritefile{
+	width: 150px
+}
+
+#n_bestWritefile input{
+	width: 100px;
+}
+
+#n_bestWriteMovie{
+	width: 260px;
+}
+#n_bestWriteMovie input{
+	width: 230px;
+	font-size: 12pt;
+}
+
+#n_bestWriteTxt{
+	width: 400px;
+}
+
+#n_bestWriteTxt textarea{
+	border: 1px #e6e6e6 solid;
+	width: 390px;
+	height: 65px;
+	font-size: 13pt;
+	resize: none;
+}
+
+#n_bestSearch input {
+	width: 200px;
+	height: 15px;
+}
+
+#n_bestSearch button {
+	width: 80px;
+	height: 30px;
+}
+
+#n_bestSearch select {
+	width: 80px;
+	height: 25px;
+}
+
+#n_bestShowForm{
+	width: 100%;
+}
+
+#n_bestShowTable{
+	max-width: 99%;
+	margin: auto;
+	border-collapse: separate;
+  border-spacing: 10px 50px;
+	
+}
+
+#n_bestShowImg{
+	width: 300px;
+	height: 200px;
+}
+
+#n_bestShowImg img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+}
+
+#n_bestShowTxt{
+	width: 460px;
+	height: 200px;
+	background-color: rgba(128,0,16, 0.6);
+	border : solid 2px #e6e6e6;
+	border-radius: 10px;
+}
+
+#n_bestShowTxtInput{
+	width: 85%;
+	height: 75px;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+	font-weight: bold;
+	font-style: italic;
+	font-family: inherit;
+	overflow: hidden;
+	resize: none;
+}
+
+#n_bestShowTxt button{
+	width: 60px;
+	height: 25px;
+	background-color: transparent;
+	color: white;
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+	float: right;
+}
+
+#n_bestShowTxtInput2{
+	margin-left: 135px;
+	margin-top: -20px;
+	text-align: right;
+	border-color: transparent; 
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 15pt;
+	font-style: italic;
+	width: 250px;
+	height: 15px;
+	table-layout: fixed;
+}
+
+#n_pagingMark{
+	width: 100px;
+	height: 500px;
+}
+
+#n_pagingMark1{
+	border : solid 2px #e6e6e6;
+	margin: auto;
+	font-size: 45pt;
+	text-align:center;
+	width: 100px;
+	height: 100px;
+	background-color: rgba(128,0,16, 0.6);
+	border-radius: 10px;
+}
+
+#n_bSearchSelect {
+	width: 80px;
+	height: 30px;
+	background-color: rgba(128,0,16, 0.6);
+	border-radius: 10px;
+	border : solid 2px #e6e6e6;
+	color: white;
+}
+
+#n_bestSearch {
+	width:200px;
+	height: 20px;
+	background-color: rgba(128,0,16, 0.6);
+	border-radius: 10px;
+	border : solid 2px #e6e6e6;
+	color: white;
+}
+
+#n_bestSearchTable button {
+	width: 80px;
+	height: 30px;
+	background-color: rgba(128,0,16, 0.6);
+	border-radius: 10px;
+	border : solid 2px #e6e6e6;
+	color: white;
+}
+
+#n_bestSearchTable{
+	width: 100%;
+	margin: auto;
+}
+
+
+#n_bestImg img {
+	max-width: 100%;
+	height: auto;
+	align-content: center;
+}
+
+#n_bestImg {
+	border: gray solid 2px;
+	width: 300px;
+	height: 300px;
+}
+
+#n_bestBoard {
+	border: gray solid 2px;
+	width: 62%;
+	height: 300px;
+}
+
+#n_quotationMarksL {
+	width: 40px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#n_quotationMarksR{
+	width: 40px;
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#n_bestBoardText {
+	border: gray solid 2px;
+	width: 500px;
+	height: 100px;
+	font-size: 15pt;
+	background-color: transparent;
+	color: white;
+}
+
+#n_bestNoScense{
+	border: 2px #e6e6e6 solid;
+	width: 600px;
+	height: 300px;
+	text-align: center;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-color: rgba(128,0,16, 0.6);;
+}
+
+/* 여기부터는 상영예정작 */
+#n_soon_title1 {
+	font-size: 50pt;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 3px;
+	padding-bottom: 50px;
+	color: white;
+	text-shadow: 0 0 7px #fff, 0 0 10px #801, 0 0 21px #801, 0 0 42px #801,
+    0 0 82px #801, 0 0 92px #801, 0 0 102px #801, 0 0 151px #801;
+}
+
+#n_soonImg1 {
+	width: 350px;
+	height: 190px;
+	max-width: 99%;
+	border-radius: 10px;
+	border: 1px dashed white;
+}
+
+#n_soonImg {
+	width: 350px;
+	height: 190px;
+	max-width: 99%;
+	border: 1px dotted white;
+}
+
+#n_soon_table {
+	width: 100%;
+	table-layout: fixed;
+	border-spacing: 20px;
+ 	border-collapse: separate;
+ 	margin-top: 50px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

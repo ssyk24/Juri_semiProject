@@ -1,0 +1,56 @@
+#mainTd{
+    text-align: left;
+}
+
+#headTbl{
+width: 100%;
+padding-left:30%;
+}
+
+.headTblFont{
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+
+#contentTbl{
+	margin:auto;
+    width: 98%;
+    height:600px;
+    background-color:#7a665d;
+    margin-top: 50px;
+}
+
+.bxslider div img{
+    max-width: 100%;
+}
+
+.bx-wrapper{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#plusTbl{
+    padding-left: 47%;
+    padding-right: 47%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#headTb2{
+    padding-left: 100px;
+    padding-right: 700px;
+}
+
+
+.bxslider img{
+	width: 1700px;
+	height: 600px;
+}

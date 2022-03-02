@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body{
+	width: 98%;
+	height:100%;
+	background-color: #7a665d;
+}
+
+
+
+#indexTitle{
+width: 400px;
+height: 100px;
+}
+
+#indexTitleTbl{
+	padding-left: 42%;
+}
+
+.index_menu{
+	font-size: 20pt;
+	color: white;
+	
+}
+
+#indexMenuTbl{
+	margin: auto;
+}
+#index_a{
+	text-decoration: none;
+	color: white;
+}
+
+a:link {
+color: white; 
+text-decoration: none;	
+}
+
+a:visited {
+color: white; 
+text-decoration: none;
+}
+
+#title_logo{
+	width: 300px;
+	height: 150px;
+	padding-bottom: 50px;
+	
+}
+
+#index_login{
+	width: 200px;
+	height: 50px;
+	color: white;
+	padding-left: 60%;
+}
+
+.menu_logo{
+	width: 200px;
+	height: 100px;
+	padding-bottom: 20px;
+	padding-left: 70px;
+}
+
+.index_menu_td{
+	padding-right: 40px;
+}
+
+#index_content1_img{
+width: 1020px;
+height: 380px;
+	}
+	
+
+#content1_h3{
+	font-size: 20pt;
+	color: white;
+	padding-left: 25%;
+	padding-top: 30px;
+}
+
+#index_content1_tbl{
+	padding-left: 25%;
+}
+
+.index_best5_img{
+	box-shadow: 20px 20px 20px black;
+	
+}
+
+#index_best5_tbl{
+	padding-left: 25%;
+}
+#index_review_tbl{
+	border: solid 1px black;
+	margin-left: 25%;	
+}
+
+#index_login{
+	padding-left: 30%;
+	
+}
+
+#login_ok_tbl{
+	width: 300px;
+}
+.loginBtn{
+	text-align: center;
+	margin-left: 65px;
+}
+#wavve_left_logo{
+	margin-left: 25%;
+	width: 150px;
+}
+#wavee_review_contentTbl_index{
+	width: 600px;
+	margin-left: 10%;
+}
+#index_bottom_logo{
+	width: 300px;
+	
+}
+#index_bottom_tbl{
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5%;
+
+}
+#index_bottom_contentImg2{
+	width: 300px;
+	height: 200px;
+}
+#index_bottom_contentImg{
+	width: 280px;
+	height: 400px;
+	margin-right: 15px;
+	border-radius: 7%;
+}
+#index_bottom_title{
+	padding-bottom: 50px;
+}
+#index_icon_img{
+width: 100px;	
+padding-left: 150px;
+}
+#icon_td{
+	padding-left: 10%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}

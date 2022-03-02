@@ -1,0 +1,557 @@
+@charset "UTF-8";
+#wavve_body{
+	width: 98%;
+	height:100%;
+	background-color: rgb(22, 22, 22);
+}
+#wavve_body_hr{
+	background-color: black;
+}
+#wavve_indexMenuTbl{
+margin-left: 15%;
+}
+#wavve_top_menu_td{
+	padding-right: 100px;
+}
+h3{
+	color: white;
+}
+
+h2{
+	font-size: 30pt;
+}
+
+#left_menu{
+	width: 200px;
+	float: left;
+	color: white;
+	padding-left: 3%;
+	font-size: 18pt;
+	padding-top: 50px;
+	font-weight: bold;
+	position: sticky; top: 0;
+	
+}
+#left_menu h2 a{
+	border: none;
+    outline:none;
+    color: #1413c0;
+    font-size: 33pt;
+}
+#left_menu ul{
+	list-style: none;
+	}
+#left_menu h2{
+	padding-left: 50px;
+	color: blue;
+
+	}
+#left_menu li{
+	padding-bottom: 15px;
+	text-align: center;
+
+	}
+#wavve_index_main{
+	font-size: 30pt;
+	color: white;
+	float: none;
+	padding-left: 9%;
+	padding-top: 50px;
+}
+#wavve_img{
+width: 1020px;
+height: 300px;
+	}
+.wavve_index_content{
+	color: white;
+	font-size: 15pt;
+	padding-left: 120px;
+	padding-bottom: 30px;
+}
+.wavve_index_content_title{
+	color: gray;
+	font-size: 25pt;
+	padding-left: 11%;
+	padding-bottom: 30px;
+	font-weight: bold;
+	}
+	
+#wavve_index_pay_tbl{
+	font-size: 15pt;
+	width:800px;
+	text-align: center;
+	border: 2px solid white;
+}
+#wavve_index_pay_tbl td{
+
+	border: 2px solid white;
+}
+#wavve_index_pay_title{
+	background-color: #1413c0;;
+}
+
+#wavve_good_contentTbl{
+	color: gray;
+	font-size: 13pt;
+	font-weight: bold;
+	padding-left:5%;
+}
+
+#wavve_good_contentTbl h2{
+	font-size: 30pt;
+	font-weight: bold;
+	color: white;
+	font-family: 'Black Han Sans', sans-serif;
+font-family: 'Gothic A1', sans-serif;
+font-family: 'Song Myung', serif;
+}
+#wavve_good_contentTbl td{
+	padding-right: 15px;
+}
+
+#wavve_good_contentTbl img{
+	width: 240px;
+	height: 350px;
+	border-radius: 5%;
+}
+#wavee_review_title{
+	padding-left: 5%;
+	
+}
+#wavee_review_title h2{
+color: white;	
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Gothic A1', sans-serif;
+
+}
+#wavee_review_select{
+	width: 80px;
+	height: 30px;
+	font-size: 12pt;
+}
+#wavee_review_contentTbl{
+	padding-top: 1%;
+	width:1180px;
+	color: white;
+	border-radius: 1%;
+	
+}
+
+
+
+#wavee_review_contentSearchTbl{
+	padding-left: 40%;
+}
+#writeContent{	
+	width:300px;
+	color: rgb(223, 223, 223);
+	font-weight: bold;
+	font-size: 20pt;
+}
+#wavee_review_search_btn{
+	height: 40px;
+	font-size: 12pt;
+}
+#wavve_review_reg_detail{
+	border: solid 2px white;
+	background-color: rgb(50, 50, 50);
+	margin:auto;
+	width:700px;
+	height:600px;
+	text-align: center;
+	color: white;
+	
+}
+
+#wavve_review_reg_detail select{
+	width: 100px;
+}
+
+#wavve_review_reg_detail input{
+	width: 600px;
+	height: 15px;
+	font-size: 12pt;
+	font-weight: bold;
+	
+	
+}
+#wavve_review_reg_detail textarea{
+	width: 600px;
+	height: 400px;
+	
+}
+#wavve_review_reg_okBtn{
+	margin-left: 65%;
+	width: 70px;
+	height: 30px;
+	font-size: 15pt;
+	
+}
+#wavve_review_reg_okBtn4{
+	margin:auto;
+	width: 70px;
+	height: 30px;
+	font-size: 15pt;
+	
+}
+#wavve_review_reg_okBtn2{
+	width: 70px;
+	height: 30px;
+	font-size: 15pt;
+	
+}
+#wavve_review_reg_okBtn3{
+	width: 70px;
+	height: 30px;
+	font-size: 15pt;
+	margin-left: 90%;
+	
+}
+.wavee_review_contentTd{
+	color: white;
+	font-size: 12pt;
+	width:50px;
+	height:30px;
+	text-align: center;	
+}
+.wavee_review_contentDate{
+	font-size: 8pt;
+	width:50px;
+	height:45px;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+.wavee_review_contentDate2{
+	font-size: 13pt;
+	width:50px;
+	height:45px;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+.wavee_review_contentGrade{
+	font-size: 13pt;
+	width:50px;
+	height:45px;
+	text-align: center;
+	border-bottom: 1px solid white;
+	color: rgb(251, 251, 0);
+}
+#wavve_grade{
+	color: rgb(251, 251, 0);
+}
+.wavee_review_contentTitle{
+	width: 400px;
+	height: 30px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 17pt;
+	color: white;
+	
+}
+.wavee_review_contentTitle_td{
+	border-bottom: double;
+	border-top: double; 
+}
+
+.wavee_review_contentTitle3{
+	width: 150px;
+	border-bottom: 1px solid white;
+}
+#wavee_review_writeTbl{
+	padding-left: 92%;
+}
+#wavee_review_writeTbl2{
+	margin-left: 81%;
+}
+#wavve_review_reg_detail_txt{
+	height: 500px;
+	background-color: white;
+	color: black;
+	text-align: left;
+}
+#wavve_index_people_pay_tbl input{
+	width: 50px;
+}
+#wavve_index_people_pay_tbl{
+	font-size: 15pt;
+	width:800px;
+	text-align: center;
+	border: 2px solid white;
+	margin-left: 120px;
+}
+#wavve_index_people_pay_tbl select{
+	width: 100px;
+	height: 25px;
+}
+.wavee_good_detail_img{
+	width:700px;
+	height: 600px;
+}
+#wavve_good_detail_contentTbl{
+	padding-left: 7%;
+}
+#wavve_good_detail_contentTbl h2{
+	color: white;
+}
+#wavve_good_detail_contentTbl a{
+	font-weight: bold;
+	font-size: 17pt;
+}
+.wavve_good_detail_td{
+	color: white;
+	font-weight: bold;
+	font-size: 15pt;
+	text-align: center;
+}
+.wavve_good_detail_td_txt{
+	color: white;
+	font-size: 15pt;
+	width: 650px;
+	padding-left: 10%;
+}
+#wavve_best_regTbl{
+	color: white;
+	width: 500px;
+	height: 200px;
+	
+}
+#wavve_best_regTbl input{
+	width: 300px;
+}
+#wavve_best_regTbl textarea{
+	width: 300px;
+	height: 100px;
+	resize:none;
+}
+#wavve_best_regTbl_td{
+	text-align: center;
+}
+#wavve_best_regTbl_button{
+	margin-left: 90%;
+	height: 30px;
+}
+
+#wavve_best_regTbl1{
+	color: white;
+	width: 800px;
+	height: 300px;
+	margin-left: 32%;
+	margin-top: 30px;
+}
+#wavve_best_regTbl1_button{
+	height: 30px;
+	margin-left: 85%;
+}
+#wavve_best_regTbl1_button1{
+	height: 30px;
+}
+#wavve_best_img{
+	width: 450px;
+	height: 300px;
+}
+#wavve_best_regTbl1_title{
+	height: 30px;
+}
+
+#wavve_best_regTbl1_txt{
+	height: 220px;
+}
+#wavve_best_regTbl_td2{
+	width: 450px;
+	height: 300px;
+}
+#wavve_best_regTbl1_title2{
+	width: 50px;
+}
+
+
+#wavve_best_regButtonTbl{
+	margin-top: 30px;
+	margin-left: 80%;
+	
+	
+}
+#wavve_best_regButtonTblBtn{
+	width: 100px;
+	height: 30px;
+	font-size: 13pt;
+	font-weight: bold;
+}
+#wavve_index_logoTd{
+	font-size: 12pt;
+	font-weight: bold;
+	padding-left: 33%;
+	padding-bottom: 5%;
+}
+#wavve_review_pageTbl{
+	color: white;
+	padding-left: 42%;
+	font-size: 14pt;
+	
+	
+}
+#wavve_best_pageTbl{
+	color: white;
+	margin-left: 48%;
+	font-size: 14pt;
+	
+}
+#wavve_next_contentTbl{
+	color: white;
+	margin-left: 22%; 
+	font-size: 30pt;
+	font-weight: bold;
+	padding-top: 50px;
+
+}
+#wavve_next_hr{
+	margin-left: 25%;
+	margin-right: 40%;
+}
+#wavve_next_mainTbl{
+	border: solid 1px white;
+	width: 1200px;
+	margin-left: 22%;
+	text-align: center;
+	font-size: 13pt;
+	background-color: rgb(180, 180, 180);
+	
+}
+#wavve_next_mainTbl2{
+ margin-left: 22%;
+ width: 1000px;
+ height: 700px;
+	
+}
+#wavve_next_mainTbl2 img{
+ width: 400px;
+ height: 300px;
+ border-radius: 10%;
+	
+}
+#wavve_next_title{
+	background-color: rgb(95, 95, 95);
+	font-size: 15pt;
+	color: white;
+	font-family: Georgia, "Malgun Gothic", serif;
+	font-weight: 600;
+}
+#wavve_best5_img{
+	width: 200px;
+	height: 100px;
+	border-radius: 10%;
+}
+.wavee_review_contentTitle2{
+	width: 400px;
+	text-align: center;
+	border-bottom: solid white 1px;
+}
+#wavve_next_detail_td{
+	padding-left:900px;
+	font-size: 15pt;
+}
+#wavve_next_detail_td2{
+	padding-left:860px;
+	font-size: 15pt;
+}
+#wavve_next_bottomTd{
+	margin-left: 40%;
+	padding-right: 30px;
+}
+#wavve_good_detail_mainTbl{
+	background-color: rgb(32, 32, 32);
+	width: 1000px;
+	margin-left: 25%;
+	border-radius: 7%;
+}
+#wavve_good_detail_mainTbl iframe{
+	border-radius: 7%;
+}
+#wavve_good_detail_aviTd{
+	padding-left: 10%;
+}
+#wavve_good_detail_mainTbl h2{
+	color: white;
+	padding-left: 9%;
+	font-size: 35pt;
+}
+#wavve_good_detail_txtTd{
+	color: white;
+	padding-left: 10%;
+	width: 200px;
+	padding-right:10%;
+	font-size: 15pt;
+	text-align: left;
+}
+#wavve_good_detail_actorTd{
+	width: 700px;
+	font-size: 20pt;
+	color: white;
+	padding-left: 10%;
+	padding-top: 2%;
+	font-weight: bold;
+}
+#wavve_good_detail_buttonTd{
+	text-align: center;
+}
+#wavve_good_detail_buttonTd button{
+	width: 120px;
+	color: white;
+	font-size:15pt; 
+	background-color: gray;
+}
+
+.disney_best_td{
+	width: 250px;
+	font-size: 15pt;
+	
+}
+
+.disney_best_input input{
+	font-size: 14pt;
+	width: 300px;
+	height: 30px;
+}
+
+.disney_best_input textarea{
+	font-size: 14pt;
+	width: 500px;
+	height: 40px;
+}
+
+.disney_best_button{
+	width: 80px;
+	height: 40px;
+	font-size: 14pt;
+	margin-left: 80%;
+}
+
+.disney_best_img {
+	width: 600px;
+	height: 330px;
+}
+
+.disney_best_scene {
+	width: 600px;
+	
+	
+}
+#wavve_best_tbl{
+	margin-top: 30px;
+    margin-left: 20%;
+    width: 1200px;
+    color: #ADE7F7;
+    border-radius: 5%;
+    background-color: rgb(32, 32, 32);	
+    }
+    
+ #wavve_review_backgroudTbl{
+    border-radius: 1%;
+    background-color: rgb(38, 38, 38);	 
+    margin-left: 19%;
+ }
+ #wavve_best_backgroundTbl{
+ 	border-radius: 1%;
+    background-color: rgb(38, 38, 38);	 
+    margin-left: 35%;
+ }

@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+
+#disney_body {
+	width: 98%;
+	color: white;
+	/* background: linear-gradient(to right bottom, #2A2A66, white);  */
+	background-color: #2A2A66;
+}
+
+#disney_left_menu {
+	width: 200px;
+	float: left;
+	color: white;
+	padding-left: 5%;
+	font-size: 18pt;
+	padding-top: 50px;
+	font-weight: bold;
+	position: sticky;
+	top: 0;
+}
+
+#disney_left_menu h2 a {
+	border: none;
+	outline: none;
+	font-size: 33pt;
+	padding-left: 35px;
+	background: linear-gradient(to right bottom, #006CF8, white);
+	color: transparent;
+	-webkit-background-clip: text;
+}
+
+#disney_left_menu ul {
+	list-style: none;
+}
+
+#disney_left_menu li {
+	padding-bottom: 15px;
+	text-align: left;
+}
+
+#disney_tbl {
+	margin-top: 30px;
+	margin-left: 350px;
+	margin-right: auto;
+	width: 80%;
+}
+
+.disney_img {
+	width: 20%;
+	margin-left: 180px;
+}
+
+.disney_index_content {
+	font-size: 15pt;
+}
+
+#disney_index_subscribe {
+	border-radius: 3px;
+	border-style: double;
+	width: 850px;
+	height: 450px;
+	font-size: 15pt;
+	text-align: center;
+}
+
+.disney_index_payCalc {
+	font-size: 15pt;
+}
+
+#disney_index_payCalc select {
+	width: 120px;
+	height: 40px;
+	font-size: 13pt;
+}
+
+/* ----------------------------------------------------- */
+.disney_recomand_title {
+	font-size: 30pt;
+}
+
+
+#disney_recomand_tbl td {
+	font-size: 18pt;
+	text-align: center;
+}
+
+#disney_recomand_tbl img {
+	width: 100%;
+	height: 150px;
+	border-radius: 15px;
+	margin: auto;
+	filter: drop-shadow(1px 1px 1px white);
+}
+
+/* ----------------------------------------------------- */
+#disney_review_board td {
+	font-size: 14pt;
+	line-height: 40pt;
+}
+
+#disney_review_board a {
+	text-decoration: none;
+}
+
+.disney_review_tr:hover {
+	background-color: #031D50;
+}
+
+.disney_review_page {
+	font: bold;
+	color: #006CF8;
+}
+
+#disney_review_bottom select {
+	width: 120px;
+	height: 30px;
+	font-size: 13pt;
+}
+
+#disney_review_bottom input {
+	width: 200px;
+	height: 30px;
+}
+
+/* ----------------------------------------------------- */
+.disney_best_td {
+	width: 250px;
+	font-size: 15pt;
+}
+
+.disney_best_input input {
+	font-size: 14pt;
+	width: 300px;
+	height: 30px;
+}
+
+.disney_best_input textarea {
+	font-size: 14pt;
+	width: 500px;
+	height: 40px;
+}
+
+.disney_best_img {
+	width: 600px;
+	height: 330px;
+}
+
+.disney_best_scene {
+	width: 600px;
+}
+
+/* ----------------------------------------------------- */
+#disney_review_reg_tbl {
+	margin-left: 200px;
+	margin-right: auto;
+	width: 80%;
+	height: 800px;
+	text-align: center;
+	font-size: 15pt;
+}
+
+#disney_review_reg_tbl select {
+	width: 120px;
+	height: 30px;
+	font-size: 13pt;
+	margin-left: 15px;
+}
+
+.disney_review_reg_selectTd {
+	height: 50px;
+	text-align: left;
+}
+
+.disney_review_reg_title {
+	width: 100px;
+	height: 50px;
+}
+
+#disney_review_reg_tbl input {
+	height: 25px;
+	width: 450px;
+	margin-left: 20px;
+}
+
+#disney_review_reg_tbl textarea {
+	height: 500px;
+	width: 1000px;
+	font-size: 11pt;
+}
+
+#disney_review_reg_tbl button {
+	width: 100px;
+	height: 40px;
+	font-size: 15pt;
+}
+
+/* ----------------------------------------------------- */
+#disney_upcoming_original_tbl {
+	width: 100%;
+	text-align: center;
+	font-size: 18pt;
+	background-color:#02153D;
+	 padding: 15px;
+	 border-style:solid; border-color: white; border-width: thin; border-radius:10px;
+}
+
+#disney_upcoming_original_tbl button {
+	font-size: 15pt;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+#disney_upcoming_original_tbl img {
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	border-radius: 10px;
+}
+
+#disney_upcoming_movie_tbl {
+	width: 100%;
+	text-align: center;
+	font-size: 18pt;
+	background-color:#02153D;
+	 padding: 15px;
+	 border-style:solid; border-color: white; border-width: thin; border-radius:10px;
+}
+
+#disney_upcoming_movie_tbl button {
+	font-size: 15pt;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+#disney_upcoming_movie_tbl img {
+	width: 100%;
+	height: 150px;
+	border-radius: 10px;
+}
+
+/* ------------------------------------------------------- */
+.disney_upcoming_detail_td {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 18pt;
+	text-shadow: 2px 2px 2px gray;
+}
+
+.disney_upcoming_detail_td button {
+	width: 200px;
+	height: 50px;
+	font-size: 12pt;
+	border-radius: 10px;
+}

@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+h3{
+	color: white;
+}
+
+#watchaNextMovie_Tbl{
+	color:white;
+	text-align:center;
+	outline:white;
+	border-collapse:collapse;
+	border:5px;
+	width : 1000px;
+	margin-left: 500px;
+	margin-right: 500px;
+	height : 500px;
+	margin:auto; 
+}
+#watcha_recom_img{
+	width:240px;
+	height:300px;
+	padding-left:50px;
+	padding-right:50px;
+	
+}
+#watcha_next_img{
+	width:270px;
+	height:300px;
+	padding-left:50px;
+	padding-right:50px;
+	
+}
+#watcha_bestScene_img{
+	width:240px;
+	height:300px;
+}
+.watchaNextMovieTbl{
+	border-color:white; 
+	padding-left:100pt; 
+	color:white;
+	height:500px;
+}
+.watchaNextMovieTbl tr{
+	text-align: center;
+}
+#watchaRecom_Tbl{
+	color:white;
+	text-align:center;
+	outline:white;
+	border-collapse:collapse;
+	border:5px;
+	width : 1200px;
+	margin-left: 500px;
+	margin-right: 500px;
+	height : 1000px;
+}
+
+.watcha_Rec_picture{
+	 width:100%; 
+	 height:300px; 
+	 object-fit:cover;
+}
+.watcha_NextMovie_picture{
+	width:100px;
+	height:300px;
+}
+
+#watcha_left_menu{
+	width: 200px;
+	float: left;
+	color: white;
+	padding-left: 7%;
+	font-size: 18pt;
+	padding-top: 50px;
+	font-weight: bold;
+	border: 1px white;
+}
+#watcha_left_menu h2 a{
+	border: none;
+    outline:none;
+    color: #1413c0;
+    font-size: 33pt;
+}
+#watcha_left_menu ul{
+	list-style: none;
+	}
+#watcha_left_menu h2{
+	padding-left: 30px;
+	color: blue;
+
+	}
+#watcha_left_menu li{
+	padding-bottom: 15px;
+	text-align: center;
+	}
+	
+.star-rating { width:205px;}
+
+.star-rating, .star-rating span {
+	display:inline-block;
+	height:39px; 
+	background:url(star.png)no-repeat;
+	overflow:hidden;
+}
+.star-rating span{
+	background-position:left bottom; 
+	line-height:0; 
+	vertical-align:top;
+}
+
+
+
+
+
+
+
